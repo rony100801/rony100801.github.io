@@ -16,6 +16,23 @@
     }
     /* AKHIR NAVBAR */
 
+    /* JUMBOTRON */
+    .jumbotron {
+        height: 540px;
+        background-image: url(../gambar/jumbotron.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 33px;
+        text-align: center;
+        margin-top: 200px;
+        color: white!important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+    /* AKHIR JUMBOTRON */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -37,6 +54,18 @@
         margin-bottom: -8px;
     }
     /* AKHIR NAVBAR */
+
+    /* JUMBOTRON */
+    .jumbotron {
+        margin-top: -75px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 70px;
+        margin-top: 200px;
+    }
+    /* AKHIR JUMBOTRON */
 
 
 }
