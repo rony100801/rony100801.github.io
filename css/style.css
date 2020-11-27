@@ -1,0 +1,38 @@
+/* DESKTOP & MOBILE */
+
+    .navbar-brand {
+        font-size: 32px;
+        color: royalblue!important;
+        font-family: yellowtail;
+        letter-spacing: 5px;
+        text-shadow: 1px 1px 1px rgba(186, 175, 175, 0.8);
+        transition: all 0.5s;
+    }
+
+    .navbar-brand:hover {
+        letter-spacing: 10px;
+        color: lightgreen!important;
+    }
+
+/* DESKTOP ONLY */
+@media (min-width: 992px) {
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        color: royalblue!important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid royalblue;
+        width: 50%;
+        padding-bottom: 5px;
+        margin: auto;
+        margin-bottom: -8px;
+    }
+
+
+}
