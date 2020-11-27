@@ -73,6 +73,23 @@
     }
     /* AKHIR SERVICES */
 
+    /* PARALLAX */
+    .parallax {
+        height: 200px;
+        background-image: url(../gambar/parallax.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .parallax .col {
+        text-align: center;
+        margin-top: 100px;
+        color: lightgray!important;
+        letter-spacing: 3px;
+        font-size: 2em;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    /* AKHIR PARALLAX */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -159,5 +176,16 @@
         width: 100%;
     }
     /* AKHIR SERVICES */
+
+    /* PARALLAX */
+    .parallax {
+        height: 300px;
+    }
+    .parallax .col {
+        margin-top: 150px;
+        letter-spacing: 5px;
+        font-size: 3em;
+    }
+    /* AKHIR PARALLAX */
 
 }
