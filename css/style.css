@@ -90,6 +90,19 @@
     }
     /* AKHIR PARALLAX */
 
+    /* GALERY */
+    .galery .card {
+        width: 80%;
+        height: 90%;
+        margin: auto;
+    }
+
+    .galery .card img{
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    /* AKHIR GALERY */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -187,5 +200,18 @@
         font-size: 3em;
     }
     /* AKHIR PARALLAX */
+
+    /* GALERY */
+    .galery .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .galery .card img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    /* AKHIR GALERY */
 
 }
