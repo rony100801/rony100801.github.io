@@ -53,6 +53,26 @@
     }
     /* AKHIR PROFILE */
 
+    /* SERVICES */
+    .services {
+        border-top: 3px solid royalblue;
+        border-bottom: 3px solid lightgreen;
+    }
+
+    .card-services {
+        width: 80%;
+        margin: auto;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+    
+    .tengah {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    /* AKHIR SERVICES */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -125,5 +145,19 @@
         margin: 0px;
     }
     /* AKHIR PROFILE */
+
+    /* SERVICES */
+    .card-services {
+        width: 100%;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+    }
+    
+    .tengah {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+    /* AKHIR SERVICES */
 
 }
