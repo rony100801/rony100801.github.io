@@ -32,6 +32,14 @@
     }
     /* AKHIR JUMBOTRON */
 
+    /* ABOUT ME */
+    .aboutme {
+        border-top: 3px solid royalblue;
+        border-bottom: 3px solid lightgreen;
+        margin-top: -40px!important;
+    }
+    /* AKHIR ABOUT ME */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -57,7 +65,7 @@
     /* JUMBOTRON */
     .jumbotron {
         margin-top: -75px;
-        height: 640px;
+        height: 680px;
     }
 
     .jumbotron .display-4 {
@@ -66,5 +74,30 @@
     }
     /* AKHIR JUMBOTRON */
 
+    /* ABOUT ME */
+
+    .kiri {
+        transition: all 1s;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    .kanan {
+        transition: all 1s;
+        cursor: pointer;
+    }
+    
+    .kiri:hover {
+        background-color: lightgreen;
+        border-radius: 10px;
+        color: black!important;
+    }
+
+    .kanan:hover {
+        background-color: lightblue;
+        border-radius: 10px;
+        color: black!important;
+    }
+    /* AKHIR ABOUT ME */
 
 }
