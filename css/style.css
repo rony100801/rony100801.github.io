@@ -3,7 +3,7 @@
     /* NAVBAR */
     .navbar-brand {
         font-size: 32px;
-        color: royalblue!important;
+        color: lightgrey!important;
         font-family: yellowtail;
         letter-spacing: 5px;
         text-shadow: 1px 1px 1px rgba(186, 175, 175, 0.8);
@@ -12,7 +12,6 @@
 
     .navbar-brand:hover {
         letter-spacing: 10px;
-        color: lightgreen!important;
     }
     /* AKHIR NAVBAR */
 
@@ -40,14 +39,14 @@
     .nav-link {
         text-transform: uppercase;
         margin-right: 30px;
-        color: royalblue!important;
+        color: lightgray!important;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     }
 
     .nav-link:hover::after {
         content: '';
         display: block;
-        border-bottom: 3px solid royalblue;
+        border-bottom: 3px solid lightgray;
         width: 50%;
         padding-bottom: 5px;
         margin: auto;
