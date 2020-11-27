@@ -103,6 +103,21 @@
     }
     /* AKHIR GALERY */
 
+    /* FOOTER */
+    footer ul li {
+        list-style: none;
+    }
+
+    footer ul li a {
+        color: white;
+        text-decoration: none!important;
+    }
+
+    .fot {
+        margin-left: 120px;
+    }
+    /* AKHIR FOOTER */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
