@@ -1,5 +1,6 @@
 /* DESKTOP & MOBILE */
 
+    /* NAVBAR */
     .navbar-brand {
         font-size: 32px;
         color: royalblue!important;
@@ -13,10 +14,12 @@
         letter-spacing: 10px;
         color: lightgreen!important;
     }
+    /* AKHIR NAVBAR */
 
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
+    /* NAVBAR */
     .nav-link {
         text-transform: uppercase;
         margin-right: 30px;
@@ -33,6 +36,7 @@
         margin: auto;
         margin-bottom: -8px;
     }
+    /* AKHIR NAVBAR */
 
 
 }
