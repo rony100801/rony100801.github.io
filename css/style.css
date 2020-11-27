@@ -40,6 +40,19 @@
     }
     /* AKHIR ABOUT ME */
 
+    /* PROFILE */
+    .kiri-profile {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .kanan-profile {
+        width: 80%;
+        margin: auto;
+    }
+    /* AKHIR PROFILE */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -99,5 +112,18 @@
         color: black!important;
     }
     /* AKHIR ABOUT ME */
+
+    /* PROFILE */
+    .kiri-profile {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 0px;
+    }
+
+    .kanan-profile {
+        width: 100%;
+        margin: 0px;
+    }
+    /* AKHIR PROFILE */
 
 }
