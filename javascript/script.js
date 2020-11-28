@@ -10,5 +10,12 @@ $('.page-scroll').on('click', function(){
         scrollTop: elemenTujuan.offset().top
     });
 
+});
+
+$('.scrolltop').on('click', function(){
+
+    $('html, body').animate({
+        scrollTop: 0
+    });
 
 });

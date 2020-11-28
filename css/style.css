@@ -221,4 +221,14 @@
     }
     /* AKHIR GALERY */
 
+    /* SCROLL TOP */
+    .scrolltop {
+        position: fixed;
+        z-index: 9999;
+        bottom: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+    /* AKHIR SCROLL TOP */
+
 }
