@@ -95,6 +95,13 @@
     }
     /* AKHIR GALERY */
 
+    /* KONTAK */
+    .contact {
+        border-top: 3px solid royalblue;
+        border-bottom: 3px solid lightgreen;
+    }
+    /* AKHIR KONTAK */
+
     /* FOOTER */
     footer ul li {
         list-style: none;
