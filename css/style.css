@@ -110,6 +110,17 @@
     }
     /* AKHIR FOOTER */
 
+    /* SCROLL TOP */
+    .scrolltop {
+        position: fixed;
+        z-index: 9999;
+        bottom: 30px;
+        right: 30px;
+        cursor: pointer;
+        color: lightgreen!important;
+    }
+    /* AKHIR SCROLL TOP */
+
 /* DESKTOP ONLY */
 @media (min-width: 992px) {
 
@@ -221,15 +232,6 @@
     }
     /* AKHIR GALERY */
 
-    /* SCROLL TOP */
-    .scrolltop {
-        position: fixed;
-        z-index: 9999;
-        bottom: 30px;
-        right: 30px;
-        cursor: pointer;
-        color: lightgreen!important;
-    }
-    /* AKHIR SCROLL TOP */
+    
 
 }
