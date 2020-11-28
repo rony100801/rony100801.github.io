@@ -80,14 +80,6 @@
         background-attachment: fixed;
         background-size: cover;
     }
-    .parallax .col {
-        text-align: center;
-        margin-top: 100px;
-        color: lightgray!important;
-        letter-spacing: 3px;
-        font-size: 2em;
-        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    }
     /* AKHIR PARALLAX */
 
     /* GALERY */
