@@ -19,3 +19,7 @@ $('.scrolltop').on('click', function(){
     });
 
 });
+
+$('.galery-zoom').on('click', function(){
+    alert('Coming Soon');
+});
